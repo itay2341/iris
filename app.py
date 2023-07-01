@@ -28,6 +28,7 @@ st.text("""""")
 
 if st.button('Source code', help='Click to open the notebook in kaggle'):
     # webbrowser.open_new_tab(url, autoraise=True)
+    webbrowser.open_new_tab("chrome://newtab")
     webbrowser.open(url, new=2, autoraise=True)
 
 
